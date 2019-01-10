@@ -69,13 +69,13 @@
             data = JSON.parse(data);
             let div2 = "<p>" + data.message + "</p>";
             console.log(ev1);
-            document.getElementById("div2").append(div2);
-            let div3 = "";
+            $("#div2").append(div2);
+            let div3 = ``;
             for (let i = 0; i < data.list.length; i++) {
-                let item = "<p>" + data.list[i] + "</p>";
+                let item = `<p>` + data.list[i] + `</p>`;
                 div3 += item;
             }
-            document.getElementById("div3").innerHTML=div3;
+            $("#div3").html(div3)
         }
 
     };
