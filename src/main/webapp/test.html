@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        #div1 {
+            border: 1px solid red;
+            height: 300px;
+            width: 500px;
+        }
+
+        #div1 div {
+            position: relative;
+            border: 1px solid black;
+        }
+
+        #div2 {
+            float: left;
+            width: 80%;
+            height: 80%;
+        }
+
+        #div3 {
+            float: right;
+            width: 19.2%;
+            height: 99.7%;
+        }
+
+        #div4 {
+            width: 80%;
+            height: 19%;
+            float: left;
+
+        }
+    </style>
+</head>
+<body>
+<div id="div1">
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <div id="div4">
+        <input type="text">
+        <button onclick="doSend()">发送</button>
+
+    </div>
+</div>
+</body>
+</html>
