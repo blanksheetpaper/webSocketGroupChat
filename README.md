@@ -1,1 +1,4 @@
 # webSocketGroupGroupChat
+简单使用webSocket实现了一个群聊的发送信息项目；
+里面实现的时候在js文件夹项目里面的jQuery没有办法加载出来，
+但是在该文件夹下面的其他js文件可以加载出来，请大神帮忙解释一下原因；
